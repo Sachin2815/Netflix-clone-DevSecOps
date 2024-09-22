@@ -237,14 +237,14 @@ This project demonstrates the power of DevSecOps in deploying a modern applicati
 
 ---
 
-***Now, from here, you can visit [my medium blog](https://medium.com/@azfaralam/netflix-clone-ci-cd-with-monitoring-jenkins-docker-kubernetes-monitoring-devsecops-6430fbd5f867), where you will find everything explained from scratch, with screenshots for every step, uploaded from the beginning to the end. So once visit on [DevSecOps-Netflix Blog for every steps](https://medium.com/@azfaralam/netflix-clone-ci-cd-with-monitoring-jenkins-docker-kubernetes-monitoring-devsecops-6430fbd5f867).***
+***Now, from here, you can visit [my medium blog](https://medium.com/@sachin28/netflix-clone-ci-cd-with-monitoring-jenkins-docker-kubernetes-monitoring-devsecops-6430fbd5f867), where you will find everything explained from scratch, with screenshots for every step, uploaded from the beginning to the end. So once visit on [DevSecOps-Netflix Blog for every steps](https://medium.com/@sachin28/netflix-clone-ci-cd-with-monitoring-jenkins-docker-kubernetes-monitoring-devsecops-6430fbd5f867).***
 
 ---
 
 ***That’s all from my side. If you encounter any issues while working on this project, feel free to connect with me via-***
 
 - [LinkedIN](https://www.linkedin.com/in/sa-chin/)
-- [Discord](https://discordapp.com/users/877531143610708028)
-- [Mail Me](mailto:azfaralam.ops@gmail.com)
+- [Discord](https://discord.com/channels/@me)
+- [Mail Me](mailto:sachin.profess@gmail.com)
 
 **Your insights are valuable and will help improve this project for everyone. Don't hesitate to connect!** ✨😊
