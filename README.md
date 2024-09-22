@@ -1,8 +1,7 @@
 # DevSecOps Project: Netflix Clone Deployment with CI/CD Pipeline
 
 ## Workflow Diagram of my Project -
-![netflix-workflow](https://github.com/mdazfar2/DevSecOps-CICD-Pipeline-NetflixClone/assets/100375390/1b8b47f4-47f6-4990-b349-8b0639507947)
-
+![netflix-workflow](Blogjpg.jpg)
 
 # Description 
 Welcome to my DevSecOps project where I deploy a Netflix clone application using modern DevOps practices and tools. In this project, I leverage Jenkins for Continuous Integration and Continuous Deployment (CI/CD), Docker for containerization, and integrating different tools with each other, Kubernetes for orchestration, and monitoring tools like Grafana, Prometheus, and Node Exporter for observability.
@@ -244,7 +243,7 @@ This project demonstrates the power of DevSecOps in deploying a modern applicati
 
 ***That’s all from my side. If you encounter any issues while working on this project, feel free to connect with me via-***
 
-- [LinkedIN](https://linkedin.com/in/md-azfar-alam)
+- [LinkedIN](https://www.linkedin.com/in/sa-chin/)
 - [Discord](https://discordapp.com/users/877531143610708028)
 - [Mail Me](mailto:azfaralam.ops@gmail.com)
 
