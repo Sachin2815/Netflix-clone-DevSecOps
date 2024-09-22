@@ -16,7 +16,11 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
+<<<<<<< HEAD
                 git branch: 'main', url: 'https://github.com/mdazfar2/DevSecOps-CICD-Pipeline-NetflixClone.git'
+=======
+                git branch: 'main', url: 'https://github.com/sachin2815/Netflix-clone-DevSecOps.git'
+>>>>>>> 26f4be5e7f7b660bddd872e2b4fed1623e31f3b3
             }
         }
         stage("Sonarqube Analysis "){
@@ -68,7 +72,11 @@ pipeline{
         }
         stage('Deploy to container'){
             steps{
+<<<<<<< HEAD
                 sh 'docker run -d --name netflix -p 8081:80 sachin28/netflix:latest'
+=======
+                 sh 'docker run -d --name netflix -p 8081:80 sachin2815/netflix:latest'
+>>>>>>> 26f4be5e7f7b660bddd872e2b4fed1623e31f3b3
             }
         }
     }
