@@ -192,20 +192,20 @@ After running this script, use your `<EC2-instance-IP:8080>` and access it via t
                 script{
                    withDockerRegistry(credentialsId: 'docker', toolName: 'docker'){
                        sh "docker build --build-arg TMDB_V3_API_KEY=ca86fe14eca3e76864bc17f59d319b92 -t netflix ."
-                       sh "docker tag netflix azfaralam440/netflix:latest "
-                       sh "docker push azfaralam440/netflix:latest "
+                       sh "docker tag netflix sachin2815/netflix:latest "
+                       sh "docker push sachin2815/netflix:latest "
                     }
                 }
             }
         }
         stage("TRIVY"){
             steps{
-                sh "trivy image azfaralam440/netflix:latest > trivyimage.txt"
+                sh "trivy image sachin2815/netflix:latest > trivyimage.txt"
             }
         }
         stage('Deploy to container'){
             steps{
-                sh 'docker run -d --name netflix -p 8081:80 azfaralam440/netflix:latest'
+                sh 'docker run -d --name netflix -p 8081:80 sachin2815/netflix:latest'
             }
         }
     }
@@ -216,7 +216,7 @@ After running this script, use your `<EC2-instance-IP:8080>` and access it via t
             body: "Project: ${env.JOB_NAME}<br/>" +
                 "Build Number: ${env.BUILD_NUMBER}<br/>" +
                 "URL: ${env.BUILD_URL}<br/>",
-            to: 'css.azfar@gmail.com',
+            to: 'sachin.singh.professional@gmail.com',
             attachmentsPattern: 'trivyfs.txt,trivyimage.txt'
         }
     }
