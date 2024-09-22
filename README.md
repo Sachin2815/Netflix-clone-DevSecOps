@@ -153,7 +153,7 @@ After running this script, use your `<EC2-instance-IP:8080>` and access it via t
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/mdazfar2/DevSecOps-CICD-Pipeline-NetflixClone.git'
+                git branch: 'main', url: 'https://github.com/sachin2815/DevSecOps-CICD-Pipeline-NetflixClone.git'
             }
         }
         stage("Sonarqube Analysis "){
