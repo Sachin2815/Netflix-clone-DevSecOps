@@ -237,7 +237,7 @@ This project demonstrates the power of DevSecOps in deploying a modern applicati
 
 ---
 
-***Now, from here, you can visit [my medium blog](https://medium.com/@sachin28/netflix-clone-ci-cd-with-monitoring-jenkins-docker-kubernetes-monitoring-devsecops-6430fbd5f867), where you will find everything explained from scratch, with screenshots for every step, uploaded from the beginning to the end. So once visit on [DevSecOps-Netflix Blog for every steps](https://medium.com/@sachin28/netflix-clone-ci-cd-with-monitoring-jenkins-docker-kubernetes-monitoring-devsecops-6430fbd5f867).***
+***Now, from here, you can visit [my medium blog](https://medium.com/@sachin28), where you will find everything explained from scratch, with screenshots for every step, uploaded from the beginning to the end. So once visit on [DevSecOps-Netflix Blog for every steps](https://medium.com/@sachin28/deploying-a-netflix-clone-ci-cd-pipeline-with-jenkins-docker-kubernetes-monitoring-2f3ee4f758fe).***
 
 ---
 
