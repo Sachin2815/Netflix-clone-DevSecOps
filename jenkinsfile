@@ -17,7 +17,7 @@ pipeline{
         stage('Checkout from Git'){
             steps{
 <<<<<<< HEAD
-                git branch: 'main', url: 'https://github.com/mdazfar2/DevSecOps-CICD-Pipeline-NetflixClone.git'
+                git branch: 'main', url: 'https://github.com/Sachin2815/Netflix-clone-DevSecOps'
 =======
                 git branch: 'main', url: 'https://github.com/sachin2815/Netflix-clone-DevSecOps.git'
 >>>>>>> 26f4be5e7f7b660bddd872e2b4fed1623e31f3b3
@@ -59,8 +59,8 @@ pipeline{
                 script{
                    withDockerRegistry(credentialsId: 'docker', toolName: 'docker'){
                        sh "docker build --build-arg TMDB_V3_API_KEY=ca86fe14eca3e76864bc17f59d319b92 -t netflix ."
-                       sh "docker tag netflix azfaralam440/netflix:latest "
-                       sh "docker push azfaralam440/netflix:latest "
+                       sh "docker tag netflix sachin2815/netflix:latest "
+                       sh "docker push sachin2815/netflix:latest "
                     }
                 }
             }
@@ -87,8 +87,8 @@ pipeline{
             body: "Project: ${env.JOB_NAME}<br/>" +
                 "Build Number: ${env.BUILD_NUMBER}<br/>" +
                 "URL: ${env.BUILD_URL}<br/>",
-            to: 'css.azfar@gmail.com',
+            to: 'sachin.singh.professional@gmail.com',
             attachmentsPattern: 'trivyfs.txt,trivyimage.txt'
-        }
+    
     }
 }
